@@ -11,8 +11,9 @@ body {
 }
 
 .form{
-    margin-left: 150px;
-    padding:10px;
+    margin-top: 20px;
+    margin-left: 250px;
+    padding:30px;
     font-size: 20px;
 
 } 
@@ -49,7 +50,7 @@ a {
 .home {
     display: flex;
     height: 60vh;
-    min-height: 748px;
+    min-height: 650px;
 }
 
 .my-img {
@@ -137,38 +138,40 @@ html {
 }
 .skills-icons{
     display: grid;
-    grid-template-columns: 460px 460px 460px 460px;
-    grid-auto-rows: 240px;
-    justify-content: center;
+    grid-template-columns: repeat(4,auto); 
+    /* grid-auto-rows: 250px; */
+    justify-content: space-evenly;
 }
 .skills-icons div{
-    margin: 50px;
+    margin: 10px;
 }
 .html-icon{
     text-align: center;
 }
 .html-icon p{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     margin-top: 10px;
 }
 .js-icon p{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     margin-top:14px;
     margin-left: 16px;
 }
 .js-icon img {
-    margin-top: -30px;
+    margin-top: -20px;
 }
 .css-icon p,.bs-icon p,.react-icon p,.mi-icon p{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     margin-top: 7px;
 }
 
 .css-icon,.bs-icon,.react-icon,.mi-icon,.js-icon {
     text-align: center;
+    margin:50px
+    
 }
 .mi-icon p {
     margin-top: 15px;
@@ -178,12 +181,12 @@ html {
 }
 .js-icon img {
     margin-top: 10px;
-}
+} 
 
 .pro-icons {
-    justify-content: center;
+    justify-content: space-evenly;
     display: grid;
-    grid-template-columns: 460px 460px 460px 460px;
+    grid-template-columns: repeat(4,auto);
     grid-auto-rows: 240px;
 }
 
@@ -212,9 +215,9 @@ html {
 }
 .data {
     display: grid;
-    grid-template-columns: 12% 12% 12% 12%;
+    grid-template-columns: repeat(4,auto);
     grid-auto-rows: 15rem;
-    justify-content: center;
+    justify-content: space-evenly;
     grid-gap: 130px;
     margin: 50px;
 }
@@ -291,7 +294,7 @@ section {
     justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .name-div {
         margin: 20px auto;
         font-size: 37px;
@@ -383,12 +386,12 @@ section {
     }
 } 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
 
     .projects {
         display: grid;
         grid-template-columns: 45% 45%;
-        min-width: 1000px;
+        min-width: 900px;
         grid-auto-rows: auto auto;
         justify-content: center;
     }
@@ -403,17 +406,17 @@ section {
     }
     .skills-icons{
         display: grid;
-        grid-template-columns: 460px 460px 460px;
+        grid-template-columns: repeat(4,auto);
         grid-auto-rows: 240px 240px;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
  
 } 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
     .projects {
         display: grid;
-        min-width: 1400px;
+        min-width: 1200px;
         grid-template-columns: 39% 39%;
         grid-auto-rows: auto;
         justify-content: center;
@@ -430,9 +433,9 @@ section {
 
     .skills-icons{
         display: grid;
-        grid-template-columns: 460px 460px 460px 460px;
-        grid-auto-rows: 240px;
-        justify-content: center;
+        grid-template-columns: repeat(4,auto);
+        /* grid-auto-rows: 240px; */
+        justify-content: space-evenly;
         text-align: center;
     }
 } 
