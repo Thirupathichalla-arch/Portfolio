@@ -1,13 +1,12 @@
-* {
+*{
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    background-color :snow;
+    background-color :rgba(247, 244, 241, 0.842); 
 }
 
 body {
-    background-color : rgb(14, 12, 12);
-    color:springgreen;
+    /* background-color : rgb(7, 7, 7);  */
     letter-spacing: 1px;
 }
 
