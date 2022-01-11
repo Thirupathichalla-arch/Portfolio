@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    background-color :snow;
 }
 
 body {
     background-color : rgb(14, 12, 12);
-    color: whitesmoke;
+    color:springgreen;
     letter-spacing: 1px;
 }
 
