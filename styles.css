@@ -306,6 +306,12 @@ section {
 }
 
 @media only screen and (max-width: 700px) {
+    .form {
+        margin-left: 30%;
+        padding: 30px;
+        font-size: 20px;
+        display: inline-block;
+    }
     .name-div {
         margin: 20px auto;
         font-size: 37px;
@@ -398,7 +404,12 @@ section {
 } 
 
 @media only screen and (min-width: 900px) {
-
+    .form {
+        margin-left:35%;
+        padding: 30px;
+        font-size: 20px;
+        display: inline-block;
+    }
     .projects {
         display: grid;
         grid-template-columns: 45% 45%;
@@ -425,6 +436,12 @@ section {
  
 } 
 @media only screen and (min-width: 1200px) {
+    .form {
+        margin-left: 40%;
+        padding: 30px;
+        font-size: 20px;
+        display: inline-block;
+    }
     .projects {
         display: grid;
         min-width: 1200px;
@@ -448,5 +465,102 @@ section {
         /* grid-auto-rows: 240px; */
         justify-content: space-evenly;
         text-align: center;
+    }
+} 
+@media only screen and (max-width: 400px) {
+    .form {
+        margin-left: 15%;
+        padding: 30px;
+        font-size: 20px;
+        display: inline-block;
+    }
+    .name-div {
+        margin: 20px auto;
+        font-size: 37px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    .my-img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .home {
+        display: flex;
+        height:auto
+    }
+   
+    .nav-container {
+        display: flex;
+        margin: 10px 0;
+        justify-content: space-between;
+        width: 70%;
+        height: 9vh;
+        color: whitesmoke;
+        border-radius: 3px;
+    }
+    .nav-container li {
+        list-style: none;
+        margin: 30px 10px;
+    }
+    .logo {
+        margin: 10px 14px;
+        padding: 12px 50px;
+    }
+    .projects {
+        display: grid;
+        grid-template-columns: 240px;
+        grid-auto-rows: auto auto auto;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    .project1 {
+        margin: 10px -25px;
+    }
+
+    .data {
+        display: grid;
+        min-width: 200px;
+        grid-template-columns: 130px 130px;
+        grid-auto-rows: 8rem 8rem;
+        justify-content: center;
+        grid-gap: 50px;
+        margin: 50px;
+    }
+
+    .rounded-circle h2 {
+        margin-top:30px;
+        font-size: 25px;
+    }
+    
+    .rounded-circle p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .skills-icons{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .pro-icons {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .summary {
+        width: 80%;
+        margin:10px auto
+    }
+    .summary p {
+        text-align: center;
+        line-height: 25px;
+        font-size: 17px;
+    }
+    .project1 {
+        min-width: 300px;
+        border: 1px solid lightslategray;
+        border-radius: 5px;
     }
 } 
