@@ -40,9 +40,7 @@ window.onscroll = function () {
   const texts = [
     "I am a Aspiring Full Stack Developer.",
     "I Love Coding.",
-    "I am Passionate about building things.",
     "I Love Problem Solving.",
-    "I Love Exploring New Things.",
   ];
   let currentText = [];
   let isRemoving = false;
@@ -88,45 +86,4 @@ window.onscroll = function () {
   }
   loop();
   
-  // $(document).ready(function () {
-  //     $("#profile__ripple").ripples({
-  //       resolution: 512,
-  //       dropRadius: 10,
-  //     });
-  
-  // window.addEventListener("load", function () {
-  //   let homeRipple = document.getElementById("home");
-  //   homeRipple.ripples({
-  //     resolution: 512,
-  //     dropRadius: 10,
-  //   });
-  // });
-  
-  // default dark mode
-  
-//   localStorage.setItem("darkMode", JSON.stringify(true));
-  
-//   //localStorage logic for dark darkMode
-  
-//   let darkMode = JSON.parse(localStorage.getItem("darkMode")) || false;
-//   const checkBox = document.querySelector("#checkbox");
-//   checkBox.checked = darkMode;
-//   console.log(darkMode, checkBox.checked);
-//   if (darkMode) {
-//     document.body.classList.add("dark");
-//   } else {
-//     document.body.classList.remove("dark");
-//   }
-  
-//   checkBox.addEventListener("change", () => {
-//     if (darkMode) {
-//       document.body.classList.remove("dark");
-//       localStorage.setItem("darkMode", JSON.stringify(false));
-//       darkMode = false;
-//     } else {
-//       document.body.classList.add("dark");
-//       localStorage.setItem("darkMode", JSON.stringify(true));
-//       darkMode = true;
-//     }
-//   });
   
